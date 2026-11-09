@@ -1,0 +1,38 @@
+
+M7 (V8 net6 0 0) NMOS_VTG w=1u l=45n
+M6 (V7 net4 0 0) NMOS_VTG w=1u l=45n
+M5 (V6 net14 0 0) NMOS_VTG w=1u l=45n
+M4 (V5 net15 0 0) NMOS_VTG w=1u l=45n
+M3 (V4 net16 0 0) NMOS_VTG w=1u l=45n
+M2 (V3 net7 0 0) NMOS_VTG w=1u l=45n
+M1 (V2 net3 0 0) NMOS_VTG w=1u l=45n
+M0 (V1 net2 0 0) NMOS_VTG w=1u l=45n
+L9 (Vdd V8) inductor l=1.2n
+L7 (Vdd V7) inductor l=400p
+L6 (Vdd V6) inductor l=535p
+L5 (Vdd V5) inductor l=980p
+L4 (Vdd V4) inductor l=900p
+L3 (Vdd V3) inductor l=750p
+L2 (Vdd V2) inductor l=590p
+L1 (net5 net2) inductor l=760p
+L0 (Vdd V1) inductor l=925p
+R9 (net8 Vgs) resistor r=1.5K
+R10 (net6 Vgs) resistor r=1.5K
+R6 (net4 Vgs) resistor r=1.5K isnoisy=yes
+R5 (net14 Vgs) resistor r=1.5K isnoisy=yes
+R4 (net15 Vgs) resistor r=1.5K isnoisy=yes
+R3 (net16 Vgs) resistor r=1.5K isnoisy=yes
+R2 (net7 Vgs) resistor r=1.5K isnoisy=yes
+R1 (net3 Vgs) resistor r=1.5K isnoisy=yes
+R0 (net2 Vgs) resistor r=1.5K isnoisy=yes
+C15 (V7 net6) capacitor c=950f
+C10 (V8 net8) capacitor c=950f
+C6 (V6 net4) capacitor c=950f
+C5 (V5 net14) capacitor c=950f
+C14 (V4 net15) capacitor c=950f
+C3 (V3 net16) capacitor c=950f
+C2 (V2 net7) capacitor c=950f
+C1 (0 net5) capacitor c=690f
+C0 (V1 net3) capacitor c=950f
+VGG (Vgs 0) vsource dc=850.00m type=dc
+VDD (Vdd 0) vsource dc=1.5 type=dc

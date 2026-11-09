@@ -1,0 +1,14 @@
+M2 (c b 0 0) NMOS_VTG w=44u l=180.00n
+M1 (b a 0 0) NMOS_VTG w=40u l=180.00n
+M0 (a VGG 0 0) NMOS_VTG w=70u l=180.00n
+M3 (a 0 VDD VDD) PMOS_VTG w=36u l=180.00n
+L2 (VGG net3) inductor l=1M isnoisy=yes
+L1 (VDD net2) inductor l=1.5n isnoisy=yes
+L0 (VDD net1) inductor l=2.4n isnoisy=yes
+R2 (VGG c) resistor r=3.5K isnoisy=yes
+R1 (net2 c) resistor r=120 isnoisy=yes
+R0 (net1 b) resistor r=110 isnoisy=yes
+C1 (VGG 0) capacitor c=200f
+C0 (c 0) capacitor c=50f
+V3 (net3 0) vsource dc=850.00m type=dc
+V0 (VDD 0) vsource dc=1.8 type=dc

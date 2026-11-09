@@ -1,0 +1,69 @@
+
+V5 (0 VSS) vsource dc=2.5 type=dc
+V8 (net4 0) vsource dc=-1 type=dc
+V9 (net22 0) vsource dc=-1 type=dc
+V10 (net10 0) vsource dc=-1 type=dc
+V0 (VDD 0) vsource dc=2.5 type=dc
+C9 (net34 0) capacitor c=4p
+C5 (d 0) capacitor c=4p
+C4 (net29 d) capacitor c=3.5p
+C12 (net13 net21) capacitor c=Ca_val
+C11 (o 0) capacitor c=4p
+C13 (net30 net21) capacitor c=Cc_val
+C10 (net24 o) capacitor c=3.5p
+C14 (net21 o) capacitor c=Co_val
+C6 (net18 net3) capacitor c=3.5p
+C7 (net3 0) capacitor c=4p
+C8 (net20 net34) capacitor c=3.5p
+M42 (net2 net5 VSS VSS) NMOS_VTG w=14u l=1.2u
+M41 (net5 net5 VSS VSS) NMOS_VTG w=7u l=1.2u
+M35 (net28 b net25 net25) NMOS_VTG w=28u l=1.2u
+M34 (net27 d net25 net25) NMOS_VTG w=28u l=1.2u
+M31 (d net23 VSS VSS) NMOS_VTG w=33u l=1.2u
+M33 (net25 net23 VSS VSS) NMOS_VTG w=14u l=1.2u
+M32 (net23 net23 VSS VSS) NMOS_VTG w=7u l=1.2u
+M61 (net7 d net26 net26) NMOS_VTG w=28u l=1.2u
+M44 (net15 net3 net2 net2) NMOS_VTG w=28u l=1.2u
+M65 (a net9 VSS VSS) NMOS_VTG w=15u l=1.2u
+M60 (net31 net21 net26 net26) NMOS_VTG w=28u l=1.2u
+M57 (net6 net6 VSS VSS) NMOS_VTG w=7u l=1.2u
+M59 (o net6 VSS VSS) NMOS_VTG w=33u l=1.2u
+M58 (net26 net6 VSS VSS) NMOS_VTG w=38u l=1.2u
+M67 (c net33 VSS VSS) NMOS_VTG w=15u l=1.2u
+M66 (b net32 VSS VSS) NMOS_VTG w=15u l=1.2u
+M43 (net3 net5 VSS VSS) NMOS_VTG w=35u l=1.2u
+M49 (net16 net16 VSS VSS) NMOS_VTG w=7u l=1.2u
+M50 (net8 net16 VSS VSS) NMOS_VTG w=14u l=1.2u
+M51 (net34 net16 VSS VSS) NMOS_VTG w=35u l=1.2u
+M45 (net17 a net2 net2) NMOS_VTG w=28u l=1.2u
+M53 (net1 c net8 net8) NMOS_VTG w=28u l=1.2u
+M52 (net14 net34 net8 net8) NMOS_VTG w=28u l=1.2u
+R37 (VDD net5) resistor r=190K isnoisy=yes
+R36 (net28 net29) resistor r=2.3K isnoisy=yes
+R23 (VDD net23) resistor r=220K isnoisy=yes
+R54 (0 c) resistor r=100.0 isnoisy=yes
+R47 (net34 net30) resistor r=Rc_val isnoisy=yes
+R45 (net7 net24) resistor r=2.3K isnoisy=yes
+R43 (VDD net6) resistor r=190K isnoisy=yes
+R53 (net10 net33) resistor r=1K isnoisy=yes
+R52 (0 b) resistor r=100.0 isnoisy=yes
+R51 (net22 net32) resistor r=1K isnoisy=yes
+R50 (net4 net9) resistor r=1K isnoisy=yes
+R49 (0 a) resistor r=100.0 isnoisy=yes
+R48 (net21 o) resistor r=Ro_val isnoisy=yes
+R42 (net1 net20) resistor r=2.3K isnoisy=yes
+R39 (net17 net18) resistor r=2.3K isnoisy=yes
+R40 (VDD net16) resistor r=190K isnoisy=yes
+R46 (net3 net13) resistor r=Ra_val isnoisy=yes
+M56 (net1 net14 VDD VDD) PMOS_VTG w=17u l=1.2u
+M55 (net14 net14 VDD VDD) PMOS_VTG w=17u l=1.2u
+M46 (net3 net17 VDD VDD) PMOS_VTG w=20u l=1.2u
+M38 (net28 net27 VDD VDD) PMOS_VTG w=17u l=1.2u
+M37 (net27 net27 VDD VDD) PMOS_VTG w=17u l=1.2u
+M36 (d net28 VDD VDD) PMOS_VTG w=75u l=1.2u
+M62 (o net7 VDD VDD) PMOS_VTG w=17.5u l=1.45u
+M63 (net31 net31 VDD VDD) PMOS_VTG w=17u l=1.2u
+M64 (net7 net31 VDD VDD) PMOS_VTG w=17u l=1.2u
+M54 (net34 net1 VDD VDD) PMOS_VTG w=20u l=1.2u
+M48 (net17 net15 VDD VDD) PMOS_VTG w=17u l=1.2u
+M47 (net15 net15 VDD VDD) PMOS_VTG w=17u l=1.2u

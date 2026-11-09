@@ -1,0 +1,20 @@
+# Python 3.11+ required (numpy 2.4 and pandas 3.0 dropped earlier versions).
+# Pinned to the versions used to produce the published results.
+
+numpy==2.4.2
+scipy==1.17.0
+pandas==3.0.1
+matplotlib==3.10.8
+networkx==3.6.1
+seaborn==0.13.2
+scikit-learn==1.8.0
+control==0.10.2
+
+# Engine behind pandas.read_excel(), used for the hardware-circuit recordings.
+openpyxl==3.1.5
+
+# MATLAB Engine API for Python, imported by src/math_models.py. The release
+# series must match your local MATLAB install (24.1.x = R2024a) -- pip will
+# refuse otherwise. Alternatively install it from your MATLAB installation's
+# extern/engines/python directory.
+matlabengine==24.1.4

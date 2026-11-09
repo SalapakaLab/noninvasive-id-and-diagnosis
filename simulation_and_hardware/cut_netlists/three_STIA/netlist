@@ -1,0 +1,22 @@
+M0 (X net3 0 0) NMOS_VTG w=20u l=120.00n
+M2 (Q Y net4 net4) NMOS_VTG w=10u l=120.00n
+M1 (net8 X net4 net4) NMOS_VTG w=10u l=120.00n
+M6 (A A 0 0) NMOS_VTG w=20u l=120.00n
+M5 (net4 A 0 0) NMOS_VTG w=20u l=120.00n
+M7 (P B 0 0) NMOS_VTG w=8u l=120n
+M9 (B B 0 0) NMOS_VTG w=8u l=120n
+R5 (P net7) resistor r=500
+R3 (Y 0) resistor r=9K
+R2 (net6 Y) resistor r=1K
+R6 (VDD X) resistor r=1.47K isnoisy=yes
+R0 (net8 net5) resistor r=40K isnoisy=yes
+R1 (net5 Q) resistor r=40K isnoisy=yes
+R4 (VDD A) resistor r=1.5K isnoisy=yes
+M11 (net6 P VDD VDD) PMOS_VTG w=50u l=120n
+M10 (B net8 VDD VDD) PMOS_VTG w=50u l=120n
+M3 (net8 net5 VDD VDD) PMOS_VTG w=50u l=120.00n
+M4 (Q net5 VDD VDD) PMOS_VTG w=50u l=120.00n
+M8 (P Q VDD VDD) PMOS_VTG w=50u l=120n
+V13 (net3 0) vsource dc=700m type=dc
+V0 (VDD 0) vsource dc=1.2 type=dc
+C0 (net7 net6) capacitor c=1p
